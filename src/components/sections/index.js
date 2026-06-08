@@ -1,0 +1,7 @@
+export { Header } from './Header'
+export { ProfileSidebar } from './ProfileSidebar'
+export { ProjectsSection } from './ProjectsSection'
+export { ExperienceSection } from './ExperienceSection'
+export { SkillsSection } from './SkillsSection'
+export { EducationSection } from './EducationSection'
+export { ContactSection } from './ContactSection'
