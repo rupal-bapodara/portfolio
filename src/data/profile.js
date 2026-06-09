@@ -7,7 +7,8 @@ export const profile = {
     phone: '+91 91737 50243',
     email: 'rupalnodedra@gmail.com',
     location: 'Porbandar, Gujarat, India',
-    avatar: './public/images/rupal-profile.png',
+    // public/ is served at the site root; remove the "public" segment
+    avatar: '/images/rupal-profile.png',
     socials: [
         {
             label: 'GitHub',
