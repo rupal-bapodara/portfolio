@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Header } from './components/sections/Header'
 import { ProfileSidebar } from './components/sections/ProfileSidebar'
 import {
@@ -17,6 +17,22 @@ import { skills } from './data/skills'
 
 function App() {
   const projects = PROJECTS
+
+  useEffect(() => {
+    const TRACKER_URL = import.meta.env.VITE_TRACKER_URL || '/api/track-view'
+    const sendView = async () => {
+      try {
+        await fetch(TRACKER_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ path: window.location.pathname, userAgent: navigator.userAgent }),
+        })
+      } catch (e) {
+        // ignore tracking errors
+      }
+    }
+    sendView()
+  }, [])
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-950">
