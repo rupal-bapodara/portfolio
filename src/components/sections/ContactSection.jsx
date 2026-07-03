@@ -23,12 +23,29 @@ export const ContactSection = ({ profile }) => (
             <div className="rounded-[1rem] border border-slate-200 bg-slate-50 p-6">
                 <p className="text-sm text-slate-700">Location</p>
                 <p className="mt-2 text-sm font-medium text-slate-900">{profile.location}</p>
-                <div className="mt-6">
+                <p className="mt-4 text-sm text-slate-700">Upwork</p>
+                <a
+                    className="mt-2 block text-sm font-medium text-slate-900"
+                    href={profile.upwork}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    https://www.upwork.com/freelancers/~01655101761cf02406?mp_source=share
+                </a>
+                <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
                     <a
                         href={`mailto:${profile.email}`}
-                        className="inline-flex items-center gap-2 rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white"
+                        className="inline-flex items-center justify-center gap-2 rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white"
                     >
                         Email me
+                    </a>
+                    <a
+                        href={profile.upwork}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-900 shadow-sm hover:bg-slate-50"
+                    >
+                        Hire me on Upwork
                     </a>
                 </div>
             </div>

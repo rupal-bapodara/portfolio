@@ -7,6 +7,7 @@ export const profile = {
     phone: '+91 91737 50243',
     email: 'rupalnodedra@gmail.com',
     location: 'Porbandar, Gujarat, India',
+    upwork: 'https://www.upwork.com/freelancers/~01655101761cf02406?mp_source=share',
     // public/ is served at the site root; remove the "public" segment
     avatar: '/images/rupal-profile.png',
     socials: [
