@@ -44,8 +44,8 @@ export const skills = {
     ],
     ai_tools: [
         "GitHub Copilot",
-        "Claude AI",
-        "OpenAI AI",
+        "Claude",
+        "ChatGPT",
         "Copilot PR Reviewer",
     ],
     professional: [

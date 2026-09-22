@@ -12,7 +12,7 @@ export const EXPERIENCES = [
             "Designed and developed RESTful APIs for frontend integration and third-party services",
             "Optimized application performance through query optimization, caching strategies, and code refactoring",
             "Provided ongoing maintenance, bug fixes, and feature enhancements for existing applications",
-            "Accelerated team workflows using GitHub Copilot, Claude AI, and OpenAI API — improving code quality and reducing boilerplate generation time.",
+            "Utilized AI-assisted development tools including GitHub Copilot, Claude, and ChatGPT to accelerate feature development, improve code quality, reduce repetitive coding, and enhance debugging efficiency.",
             "Implemented Git branching strategy, pull request workflows, and CI/CD pipelines for consistent deployments.",
             "Implemented and managed application monitoring solutions using Sentry and BugSnag for real-time error tracking, performance monitoring, and faster production issue resolution.",
             "Collaborated directly with travel vendors and technical support teams to troubleshoot integration issues, coordinate data requirements, and ensure reliable data delivery."
