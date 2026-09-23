@@ -2,6 +2,7 @@ export const PROJECTS = [
     {
         title: "Multi-Platform Travel Booking System — Customer Booking Frontend",
         role: "Senior Full Stack Developer",
+        featured: true,
         technologies: [
             "Next.js",
             "React",
@@ -57,6 +58,7 @@ export const PROJECTS = [
     {
         title: "Multi-Platform Travel Booking System — Centralized API Platform",
         role: "Backend Developer",
+        featured: true,
         technologies: [
             "Laravel",
             "MySQL",
@@ -321,6 +323,7 @@ export const PROJECTS = [
     {
         title: "AI Chat API — RAG-based Document Q&A System",
         role: "Personal Project",
+        featured: true,
         link: "https://github.com/rupal-bapodara/ai-chat-api",
         technologies: [
             "Laravel 13",
@@ -344,6 +347,7 @@ export const PROJECTS = [
     {
         title: "KYC Demo — Persona API Identity Verification",
         role: "Personal Project",
+        featured: true,
         link: "https://github.com/rupal-bapodara/kyc-demo",
         technologies: [
             "Laravel",

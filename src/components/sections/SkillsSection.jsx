@@ -1,9 +1,9 @@
 import { SkillCategory } from '../shared'
 
 export const SkillsSection = ({ skills }) => (
-    <section id="skills" className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-slate-200">
+    <section id="skills" className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-slate-200 dark:bg-slate-900 dark:ring-slate-800">
         <div className="mb-8">
-            <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950">
+            <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950 dark:text-slate-50">
                 Skills
             </h2>
         </div>

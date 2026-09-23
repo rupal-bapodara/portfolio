@@ -1,7 +1,7 @@
 export const ListItems = ({ items, variant = 'bullet' }) => {
     if (variant === 'bullet') {
         return (
-            <ul className="mt-3 space-y-2 text-sm text-slate-600">
+            <ul className="mt-3 space-y-2 text-sm text-slate-600 dark:text-slate-300">
                 {items.map((item) => (
                     <li key={item} className="flex gap-3">
                         <svg
@@ -14,7 +14,7 @@ export const ListItems = ({ items, variant = 'bullet' }) => {
                             strokeWidth="2"
                             strokeLinecap="round"
                             strokeLinejoin="round"
-                            className="mt-1 h-4 w-4 flex-none text-slate-400"
+                            className="mt-1 h-4 w-4 flex-none text-slate-400 dark:text-slate-500"
                             aria-hidden="true"
                         >
                             <circle cx="12" cy="12" r="10" />
@@ -28,7 +28,7 @@ export const ListItems = ({ items, variant = 'bullet' }) => {
     }
     if (variant === 'check') {
         return (
-            <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600">
+            <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-600 dark:text-slate-300">
                 {items.map((item) => (
                     <li key={item} className="flex gap-3">
                         <svg
@@ -41,7 +41,7 @@ export const ListItems = ({ items, variant = 'bullet' }) => {
                             strokeWidth="2"
                             strokeLinecap="round"
                             strokeLinejoin="round"
-                            className="mt-1 h-4 w-4 flex-none text-slate-400"
+                            className="mt-1 h-4 w-4 flex-none text-slate-400 dark:text-slate-500"
                             aria-hidden="true"
                         >
                             <circle cx="12" cy="12" r="10" />
