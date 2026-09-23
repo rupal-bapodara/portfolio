@@ -1,6 +1,6 @@
 export const PROJECTS = [
     {
-        title: "American Discount Vacations – Travel Platform Modernization (Next.js)",
+        title: "Multi-Platform Travel Booking System — Customer Booking Frontend",
         role: "Senior Full Stack Developer",
         technologies: [
             "Next.js",
@@ -27,7 +27,7 @@ export const PROJECTS = [
         },
     },
     {
-        title: "Travel Operations Management Platform (Laravel Admin)",
+        title: "Multi-Platform Travel Booking System — Operations Admin Panel",
         role: "Senior Full Stack Developer",
         technologies: [
             "Laravel",
@@ -39,7 +39,7 @@ export const PROJECTS = [
             "vite",
         ],
         overview:
-            "Centralized administration platform used by internal teams to manage travel inventory, cruise lines, ships, tour operators, resort brands, destinations, website content, vendor management, and operational workflows across the American Discount Vacations ecosystem.",
+            "Centralized administration platform used by internal teams to manage travel inventory, cruise lines, ships, tour operators, resort brands, destinations, website content, vendor management, and operational workflows across the platform's ecosystem.",
         contributions: {
             keyAchievements: [
                 "Designed and developed the administration platform from the ground up using Laravel.",
@@ -55,7 +55,7 @@ export const PROJECTS = [
     },
 
     {
-        title: "American Discount Vacations (API Platform - Laravel)",
+        title: "Multi-Platform Travel Booking System — Centralized API Platform",
         role: "Backend Developer",
         technologies: [
             "Laravel",
@@ -72,7 +72,7 @@ export const PROJECTS = [
         contributions: {
             keyAchievements: [
                 "Architected and maintained centralized REST APIs powering multiple travel booking applications and frontend platforms.",
-                "Developed large-scale supplier data integration and import processes for Odysseus travel feeds, including tour operators such as TTC, Globus, G Adventures, Tauck, and Abercrombie & Kent.",
+                "Developed large-scale third-party supplier integrations across several major tour-operator feeds.",
                 "Developed scalable APIs supporting travel search, listings, destinations, pricing, availability, and booking-related workflows.",
                 "Established maintainable application architecture using Service, Repository, DTO, Contract, and Enum design patterns.",
                 "Implemented role-based access controls, validation workflows, and secure administration functionality.",
@@ -85,7 +85,7 @@ export const PROJECTS = [
         },
     },
     {
-        title: "American Discount Vacations – Global Travel Booking Platform",
+        title: "Multi-Platform Travel Booking System — Legacy Booking Platform",
         role: "Senior Full Stack Developer",
         technologies: [
             "CodeIgniter",
@@ -112,7 +112,7 @@ export const PROJECTS = [
         },
     },
     {
-        title: "ThinkCore Smart - Diet and Fitness web application",
+        title: "Diet & Fitness Web Application",
         role: "Full Stack Developer",
         technologies: [
             "Laravel",
@@ -135,7 +135,7 @@ export const PROJECTS = [
         }
     },
     {
-        title: "World of Rings – E-Commerce Platform",
+        title: "Jewelry E-Commerce Platform",
         role: "Backend Developer",
         technologies: [
             "PHP",
@@ -157,7 +157,7 @@ export const PROJECTS = [
         }
     },
     {
-        title: "Captain's Coach - Sports coaching and training APIs",
+        title: "Sports Coaching & Training Platform (APIs)",
         role: "Laravel Developer",
         technologies: [
             "Laravel",
@@ -178,7 +178,7 @@ export const PROJECTS = [
         }
     },
     {
-        title: "Sherri Hill – Fashion E-Commerce Platform",
+        title: "Fashion E-Commerce Platform",
         role: "Full Stack Developer",
         technologies: [
             "PHP",
@@ -201,7 +201,7 @@ export const PROJECTS = [
         }
     },
     {
-        title: "EnOrders – Order & Vendor Management System",
+        title: "Order & Vendor Management ERP",
         role: "Full Stack Developer",
         technologies: [
             "PHP",
@@ -209,7 +209,7 @@ export const PROJECTS = [
             "MySQL",
         ],
         overview:
-            "Internal enterprise application used for managing Neon LED product orders, vendor coordination, and fulfillment workflows.",
+            "Internal enterprise application used for managing product orders, vendor coordination, and fulfillment workflows.",
         contributions: {
             keyAchievements: [
                 "Developed order management workflows.",
@@ -223,7 +223,7 @@ export const PROJECTS = [
         }
     },
     {
-        title: "XCoins Cryptocurrency Platform",
+        title: "Global Cryptocurrency Exchange Platform",
         role: "Full Stack Developer",
         technologies: [
             "PHP",
@@ -232,13 +232,13 @@ export const PROJECTS = [
             "JavaScript",
             "jquery",
             "Blockchain",
-            "simplex",
+            "Payment Gateway Integration",
         ],
         overview:
-            "A decentralized cryptocurrency platform designed for secure and efficient digital transactions.",
+            "International cryptocurrency exchange supporting Bitcoin, Ethereum, XRP, Dogecoin, and 10+ cryptocurrencies across multiple countries.",
         contributions: {
             keyAchievements: [
-                "Integrated the Simplex payment gateway to support cryptocurrency purchases and secure payment processing.",
+                "Integrated a payment gateway to support cryptocurrency purchases and secure payment processing.",
                 "Developed blockchain wallet integration workflows for cryptocurrency deposits, withdrawals, and transaction management.",
                 "Built APIs to validate wallet addresses and verify blockchain transactions before processing transfers.",
                 "Implemented secure cryptocurrency transfer processes and transaction tracking mechanisms.",
@@ -252,7 +252,7 @@ export const PROJECTS = [
         }
     },
     {
-        title: "Auction Hub – Digital Auction Platform",
+        title: "Private Digital Auction Platform",
         role: "Full Stack Developer",
         technologies: [
             "Laravel 5",
@@ -274,7 +274,7 @@ export const PROJECTS = [
         }
     },
     {
-        title: "Twilio ERP SaaS Platform",
+        title: "Multi-Tenant SaaS Communication Platform",
         role: "Full Stack Developer",
         technologies: [
             "Laravel 5",
@@ -294,6 +294,73 @@ export const PROJECTS = [
                 "Integrated Stripe and PayPal payment gateways to support online payments, subscription management, and billing operations."
             ]
         }
-    }
+    },
+    {
+        title: "Laravel Livewire Task Board",
+        role: "Personal Project",
+        link: "https://github.com/rupal-bapodara/laravel-livewire-challenge",
+        technologies: [
+            "Laravel 13",
+            "Livewire 4",
+            "Tailwind CSS",
+            "SQLite",
+            "Vite",
+        ],
+        overview:
+            "A single-page task management demo built to showcase reactive, no-page-reload CRUD with Laravel Livewire: creating, searching, filtering, completing, and deleting tasks entirely through server-driven components.",
+        contributions: {
+            keyAchievements: [
+                "Built a class-based Livewire component handling task creation, live search, status filtering, and sorting without full page reloads.",
+                "Implemented real-time field validation (required/length rules, due-date-in-future constraint) that runs as each input is updated.",
+                "Designed a search scope on the Eloquent model for instant title/description lookups combined with a status filter.",
+                "Implemented automatic sorting so open tasks surface above completed ones, ordered by due date.",
+                "Built one-click status updates and deletions with flash-message feedback, styled with Tailwind CSS and Vite."
+            ]
+        }
+    },
+    {
+        title: "AI Chat API — RAG-based Document Q&A System",
+        role: "Personal Project",
+        link: "https://github.com/rupal-bapodara/ai-chat-api",
+        technologies: [
+            "Laravel 13",
+            "PostgreSQL (pgvector)",
+            "Groq API",
+            "Hugging Face API",
+            "PHPUnit",
+        ],
+        overview:
+            "A Retrieval-Augmented Generation (RAG) chat application that ingests PDF documents and answers questions using semantic search rather than keyword matching, built to have something real and working rather than just talking points.",
+        contributions: {
+            keyAchievements: [
+                "Built a document indexing pipeline that extracts and chunks PDF text and generates 384-dimension vector embeddings via the Hugging Face Inference API.",
+                "Stored embeddings in PostgreSQL using the pgvector extension with an HNSW index for fast nearest-neighbor chunk lookup.",
+                "Built semantic retrieval using cosine-distance similarity search, feeding the most relevant chunks into Groq's LLM for response generation.",
+                "Designed the system to correctly retrieve semantically related content even when query phrasing differs from the source document's wording.",
+                "Covered the pipeline with an automated PHPUnit test suite — embedding service, vector repository queries, and a full upload-to-embed-to-retrieve-to-chat feature test — run against a live PostgreSQL + pgvector database.",
+            ],
+        },
+    },
+    {
+        title: "KYC Demo — Persona API Identity Verification",
+        role: "Personal Project",
+        link: "https://github.com/rupal-bapodara/kyc-demo",
+        technologies: [
+            "Laravel",
+            "Persona API",
+            "SQLite",
+        ],
+        overview:
+            "A sandbox integration with Persona's Inquiry API demonstrating a real outbound-call and inbound-webhook identity-verification flow end-to-end, including signature verification and PII-conscious data handling.",
+        contributions: {
+            keyAchievements: [
+                "Built outbound API integration with retry-on-transient-failure and an idempotency key so a retried request never double-creates an Inquiry.",
+                "Implemented inbound webhook handling with HMAC-SHA256 signature verification, compared in constant time.",
+                "Added duplicate-event protection, since Persona explicitly documents at-least-once webhook delivery.",
+                "Routed pass/fail/needs-review verification outcomes back onto the claim record.",
+                "Designed for PII discipline — only the Persona reference ID and inquiry status are stored locally; raw ID documents and selfies never touch local servers.",
+            ],
+        },
+    },
 
 ]

@@ -1,4 +1,4 @@
-import { Sparkles } from 'lucide-react'
+import { Sparkles, ExternalLink } from 'lucide-react'
 import { SectionHeader, ListItems } from '../shared'
 
 export const ProjectsSection = ({ projects }) => (
@@ -15,6 +15,17 @@ export const ProjectsSection = ({ projects }) => (
                         <div>
                             <h3 className="text-2xl font-semibold tracking-tight text-slate-950">{project.title}</h3>
                             <p className="mt-2 text-sm font-medium text-slate-700">{project.role}</p>
+                            {project.link && (
+                                <a
+                                    href={project.link}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="mt-2 inline-flex items-center gap-1 text-sm font-medium text-slate-600 hover:text-slate-900"
+                                >
+                                    View on GitHub
+                                    <ExternalLink className="h-3.5 w-3.5" />
+                                </a>
+                            )}
                         </div>
 
                         <div className="flex flex-wrap gap-1.5">
