@@ -19,7 +19,7 @@ function App() {
   const projects = PROJECTS
 
   useEffect(() => {
-    const TRACKER_URL = import.meta.env.VITE_TRACKER_URL || '/api/track-view'
+    const TRACKER_URL = '/api/track-view'
     const sendView = async () => {
       try {
         await fetch(TRACKER_URL, {
